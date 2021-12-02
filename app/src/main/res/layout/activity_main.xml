@@ -8,43 +8,41 @@
 
     <TextView
         android:id="@+id/clickButtonBlue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/button_bg_blue"
         android:padding="16dp"
         android:text="Blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/clickButtonGreen"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clickButtonGreen" />
 
     <TextView
         android:id="@+id/clickButtonGreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/button_bg_green"
         android:padding="16dp"
         android:text="Green"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/clickButtonRed" />
 
     <TextView
         android:id="@+id/clickButtonRed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="75dp"
         android:background="@drawable/button_bg_red"
         android:padding="16dp"
         android:text="Red"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toEndOf="@+id/clickButtonBlue"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -55,7 +53,8 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/clickButtonGreen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
